@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+/* header */
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242629;
+    height: 70px;
+}
+
+.RYG {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.RYG>li {
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+}
+
+#Red {
+    background-color: red;
+}
+
+#Yellow {
+    background-color: rgb(255, 208, 0);
+}
+
+#Green {
+    background-color: rgb(11, 161, 1);
+}
+
+/* header_center */
+.center {
+    background-color: #494a4e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 500px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+/* header_img */
+.contents_img {
+    margin-right: 50px;
+}
+
+.contents_img>img {
+    width: 25px;
+    height: 30px;
+}
+
+/* contents */
+.main-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+}
+
+#said-title {
+    color: #494a4e;
+    font-size: 40px;
+}
+
+#main-title {
+    font-size: 90px;
+}
+
+/* 이미지 리스트 */
+.title-img {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.title-img>li {
+    padding: 0px 20px 0px 20px;
+}
+
+.title-img>li>img {
+    width: 70px;
+    height: 70px;
+}
+
+.title-img>.below-img {
+    padding-top: 30px;
+}
+
+/* 소개 섹션 */
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+    height: 700px;
+}
+
+.about-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    font-size: 18px;
+    color: #333;
+}
+
+#skill-button {
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+}
+
+#skill-button>a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.my-skill>img {
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+}
+
+/* 자격증 & 수상경력 */
+.award-history {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    background-color: white;
+}
+
+.award-history h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.award {
+    background-color: #d2d2d2;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+/* 프로젝트 섹션 */
+.projects-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #f8f8f8;
+}
+
+.projects-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.projects-list {
+    list-style: none;
+    padding: 0;
+}
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    background-color: #ddd;
+    margin: 10px auto;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    padding: 10px;
+    gap: 15px;
+}
+
+#project01 {
+    width: 400px;
+    height: 250px;
+}
+
+#project02 {
+    width: 400px;
+    height: 250px;
+}
+
+/* footer 섹션 */
+.contact-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #f1f1f1;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-text {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.contact-text a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+/* 오른쪽 네비게이션 바 스타일 */
+.right-nav {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color: #242629;
+    border-radius: 20px;
+    padding: 15px 10px;
+    z-index: 1000;
+}
+
+.right-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.right-nav ul li {
+    margin: 10px 0;
+}
+
+.right-nav ul li a {
+    display: block;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+.right-nav ul li a:hover {
+    background-color: #494a4e;
+}
+
+@media (max-width: 1200px) {
+    #project01-imgs {
+        flex-direction: column;
+    }
+}
