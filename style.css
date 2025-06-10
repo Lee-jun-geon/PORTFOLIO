@@ -266,12 +266,12 @@ a {
 .project-card h3 {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #242629;
+    color: rgb(49, 49, 49);
 }
 
 .project-card p {
     font-size: 15px;
-    color: #333;
+    color: white;
     margin-bottom: 15px;
     line-height: 1.4;
 }
@@ -279,7 +279,7 @@ a {
 .visit-btn {
     display: inline-block;
     padding: 8px 16px;
-    background-color: #242629;
+    background-color: rgb(45, 45, 45);
     color: white;
     text-decoration: none;
     border-radius: 8px;
@@ -288,7 +288,8 @@ a {
 }
 
 .visit-btn:hover {
-    background-color: #494a4e;
+    background-color: white;
+    color: black;
 }
 
 /* footer 섹션 */
